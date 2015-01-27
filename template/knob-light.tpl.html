@@ -1,0 +1,22 @@
+<div>
+	
+	<img tmax-knob-core
+		 src="imgs/knob_1/colors_circle.png"
+		 options="options"		 
+		 on-drag-end="onDragEnd(rotation)"
+		 on-drag="onDrag(rotation)"
+		 on-throw-complete="onThrowCompleted(rotation)"
+		 style="position:absolute"
+		 api="api.knob"
+		 class="circle">
+
+	<img src="imgs/knob_1/arrow.png" class="arrow">
+
+	<img src="imgs/knob_1/button-on-off.png" 
+		 class="onoff-button"
+		 ng-click="toggle()">
+
+	<img src="imgs/knob_1/button-down.png"
+	     class="color-select-button" 
+	     ng-click="rotateTo()">
+</div>

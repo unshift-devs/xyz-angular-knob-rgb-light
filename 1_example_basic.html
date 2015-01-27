@@ -1,0 +1,51 @@
+<!doctype html>
+<html  lang="en" ng-app="KnobDemo">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta name="theme-color" content="#D6EF89">
+	
+	<!-- CDN -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,500italic,500,400italic,300italic,100italic,100,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles/demo.css">
+    <link rel="stylesheet" href="styles/knob.css">
+
+	
+	<!-- Bower dependencies -->
+	<script src="bower_components/gsap/src/minified/TweenMax.min.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+
+	<!-- Tweennmax Premium Dependencies -->
+	<script src="vendors/tweenmax/utils/Draggable.min.js"></script>
+	<script src="vendors/tweenmax/plugins/ThrowPropsPlugin.min.js"></script>
+
+	<script src="js/app.js"></script>		
+	<script src="js/tmax-knob.js"></script>
+</head>
+
+
+<body class="container">
+	 
+	<div ng-controller="Demo2Ctrl as ctrl"  class="float-left">
+		
+			<h2>
+				<i class="fa fa-lightbulb-o fa-2x light-off" 
+				   ng-class="{'light-on': ctrl.onOffStatus ? true : false}"></i>
+				Angular RGB Knob: {{ctrl.currentRotation || 0}}°
+			</h2>
+			
+
+		<xyz-knob-rgb-light options="ctrl.knobOptions" 
+					on-off-change="ctrl.onToggleLight($status)"
+					on-change="ctrl.onDragEnd($rotation)"
+					class="knob"></xyz-knob-rgb-light>
+	</div>
+
+	
+
+
+</body>
+</html>

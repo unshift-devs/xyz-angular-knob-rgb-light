@@ -1,0 +1,24 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 50px;
+}
+
+.float-left {
+	float: left;
+	margin-right:30px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.light-on {
+	color: #FED801 !important; 
+}
+
+.light-off {
+	color: grey;
+}

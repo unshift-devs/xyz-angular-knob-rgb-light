@@ -1,0 +1,53 @@
+.knob {
+	position:relative; 
+	width: 329px; 
+	height: 329px;
+}
+
+.knob .circle {
+
+}
+
+.knob .arrow {
+	position:absolute; 
+	width: 26px;
+	height: 13px;
+	margin-left:50%; 
+	margin-right:50%; 
+	left:-13px; 
+	top:0;
+}
+
+.knob .onoff-button {
+	position:absolute; 
+	width: 120px;
+	margin-left:50%; 
+	margin-right:50%; 
+	left:-60px; 
+	margin-top:50%; 
+	margin-bottom:50%; 
+	top:-61px;
+	cursor: pointer;
+	 -webkit-transition: opacity 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 0.3s;
+    z-index: 10;
+}
+
+.knob .onoff-button:hover {
+	opacity: 0.7;
+}
+
+.knob .color-select-button {
+	position:absolute; 
+	margin-left:50%; 
+	margin-right:50%; 
+	left:-87px; 
+	bottom: 0px; 
+	cursor: pointer;
+	-webkit-transition: opacity 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 0.3s;
+}
+
+.knob .color-select-button:hover {
+	opacity: 0.85;
+}

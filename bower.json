@@ -1,0 +1,25 @@
+{
+  "name": "xyz-angular-knob-rgb-light",
+  "version": "0.0.1",
+  "authors": [
+    "unshift/lelylan"
+  ],
+  "description": "A knob AngularJS component to control an RGB light",
+  "keywords": [
+    "knob",
+    "angularjs",
+    "light"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gsap": "#1.15.1",
+    "angular": "#1.3.11"
+  }
+}
