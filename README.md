@@ -45,15 +45,17 @@ It requires the Premium version of [GSAP](https://greensock.com/gsap)
 
 ----------
 
-#### Issues
+ 
+#### Todos
+- Scaffolding / minification / Gulp
+- Make it responsive
+- handle initial configuration
+- Register to Bower 
+
+
+#### Main issues
 
 - improve layout e css
 - rotation value sometimes is negative 
 - Remove $timeout in xyzKnobRgbLight directive
- 
-#### Todos
-- Make it responsive
-- handle initial configuration
-- Register to Bower 
-- Minification / GULP
 - Unit Test
