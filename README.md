@@ -1,12 +1,13 @@
 # xyz-angular-knob-rgb-light (PoC)
-An angularjs knob component for RGB Light.
+An angularjs knob component to control RGB Lights.
 
-The component is just a **proof of concept** and needs a lot of fix and improvements in order to be used in production.
-It requires the Premium version of [GSAP](https://greensock.com/gsap)
+The component is just a **proof of concept** and need a lot of fixes and improvements in order to be used in production.
+
+It requires the premium version of [GSAP](https://greensock.com/gsap)
  
- ![](preview.jpg)
+[![](preview.jpg)](http://lab.unshift.xyz/components/angularjs-knob-light/2_demo.html)
 
-## [Demo](http://lab.unshift.xyz/components/angularjs-knob-light/2_demo.html) | [Video](https://www.youtube.com/watch?v=w8yx4zIsRWk)
+## [Live demo](http://lab.unshift.xyz/components/angularjs-knob-light/2_demo.html) | [Watch the video](https://www.youtube.com/watch?v=w8yx4zIsRWk)
 
 
 # Usage:
