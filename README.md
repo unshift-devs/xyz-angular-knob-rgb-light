@@ -1,15 +1,14 @@
-# xyz-angular-knob-rgb-light
-An angularjs knob component for RGB Light (WIP)
+# xyz-angular-knob-rgb-light (PoC)
+An angularjs knob component for RGB Light.
 
-The component is just a proof of concept and needs a lot of fix and improvements in order to be used in production.
+The component is just a **proof of concept** and needs a lot of fix and improvements in order to be used in production.
 It requires the Premium version of [GSAP](https://greensock.com/gsap)
-
-## [Demo](http://lab.unshift.xyz/components/angularjs-knob-light/2_demo.html)
-
  
+ ![](preview.jpg)
+
+## [Demo](http://lab.unshift.xyz/components/angularjs-knob-light/2_demo.html) | [Video](https://www.youtube.com/watch?v=w8yx4zIsRWk)
 
 
-----------
 # Usage:
 
   
@@ -48,14 +47,14 @@ It requires the Premium version of [GSAP](https://greensock.com/gsap)
  
 #### Todos
 - Scaffolding / minification / Gulp
-- Make it responsive
-- handle initial configuration
+- Responsive Layout
+- Handle initial configuration
 - Register to Bower 
-
+- Unit Test
 
 #### Main issues
 
-- improve layout e css
-- rotation value sometimes is negative 
-- Remove $timeout in xyzKnobRgbLight directive
-- Unit Test
+- layout e css improvements
+- fix rotation value, sometimes is negative 
+- remove $timeout in xyzKnobRgbLight directive
+- directives refactoring 
